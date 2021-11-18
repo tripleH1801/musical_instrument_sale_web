@@ -1,0 +1,120 @@
+.product__title__slider {
+    padding: 10px 10px;
+    color: #ad2f2f;
+    font-weight: bold;
+
+    background-color: rgba(238, 238, 238, 0.25);
+    width: 100%;
+}
+
+.product__options {
+    background-color: #fff;
+}
+
+.product__options p {
+    margin: 0 0;
+}
+
+.option__item {
+    margin: 0 0;
+    padding: 0 5px;
+    min-width: 228px;
+    transition: all 0.15s ease-in 0.075s;
+
+    margin-bottom: 10px;
+}
+.option__item > .option__item__img > img {
+    height: 180px;
+    width: 228px !important;
+    object-fit:contain;
+    background-position: center center;
+    transition: all 0.15s ease-in 0.075s;
+}
+
+.option__item__img {
+    height: 180px;
+    width: 100%;
+    overflow: hidden;
+}
+.option__item__additional p {
+    background-color: rgba(238, 238, 238, 0.25);
+    font-size: 13px;
+    color: #444;
+}
+.option__item__additional {
+    margin-bottom: 8px;
+}
+
+.option__item__money {
+    font-weight: bold;
+    color: #d70018;
+}
+
+.option__item__name {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.option__item:hover {
+    cursor: pointer;
+    box-shadow: 0 6px 9px 0 rgb(0 0 0 / 16%);
+}
+
+.option__item:hover .option__item__img > img {
+    transform: scale(1.02);
+}
+
+.product__list--wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.arrow {
+    font-size: 30px;
+    color: #c4c4c4;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding:10px;
+    border-radius: 50%;
+    top: 120px;
+    right: 0;
+    
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+    opacity: 0.5;
+}
+
+.arrow--left {
+    font-size: 30px;
+    color: #c4c4c4;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding:10px;
+    border-radius: 50%;
+    top: 120px;
+    left: 0;
+
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.product__option__list {
+    display: flex;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+    justify-items: flex-start;
+}
+
+.move:hover{
+   color: black;
+   opacity: 1;
+
+
+}

@@ -1,0 +1,216 @@
+.wrapper_cart {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    background-color: rgb(239, 239, 239);
+
+    .element_cart {
+        width: 720px;
+        display: flex;
+        min-height: 155px;
+        background-color: white;
+
+        padding: 10px 25px;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+
+        > input {
+            margin-top: 60px;
+        }
+
+        .img_element {
+            width: 150px;
+            img {
+                max-width: 130px;
+                min-height: 130px;
+
+                object-fit: cover;
+                background-position: center center;
+            }
+        }
+
+        .name_a_delete {
+            display: flex;
+            flex-direction: column;
+            width: 280px;
+            span {
+                margin-bottom: 10px;
+            }
+
+            > button {
+                font-size: 13px;
+                width: 100px;
+                padding: 0 0;
+            }
+        }
+
+        .interact {
+            width: 130px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            input {
+                width: 30px;
+                border: none;
+                outline: none;
+                width: 32px;
+
+                height: 28px;
+                text-align: center;
+                border-top: 0.5px solid #c4c4c4;
+                border-bottom: 0.5px solid #c4c4c4;
+            }
+
+            > button {
+                height: 28px;
+                width: 32px;
+                border: 0.5px solid #c4c4c4;
+                background-color: #fff;
+                outline: none;
+            }
+        }
+
+        .price {
+            text-align: center;
+            width: 120px;
+            margin: auto auto;
+        }
+        .price::after {
+            content: " đ";
+        }
+    }
+
+    .personel_info {
+        width: 380px;
+        position: absolute;
+        right: 0;
+        background-color: white;
+
+        top: 0;
+        padding: 10px 10px;
+
+        .address_getProduct {
+            display: flex;
+            justify-content: space-between;
+        }
+        p {
+            margin: 0;
+        }
+
+        .inf_per {
+            font-weight: 700;
+            padding-top: 8px;
+        }
+
+        .inf_ad {
+            color: rgb(120, 120, 120);
+            font-size: 14px;
+        }
+
+        .calculate {
+            display: flex;
+            justify-content: space-between;
+            span:first-child {
+                color: rgb(120, 120, 120);
+                font-size: 1.5rem;
+            }
+            span:last-child {
+                color: rgb(254, 56, 52);
+                font-size: 1.5rem;
+                font-weight: 500;
+            }
+            span:last-child::after {
+                content: " đ";
+            }
+        }
+
+        > button {
+            margin-top: 10px;
+            width: 100%;
+        }
+    }
+}
+
+.alert--block {
+    display: none;
+    position: sticky;
+    z-index: 10;
+}
+
+.modal-body {
+    > form > button {
+        margin-left: 663px;
+        padding: 5px 20px;
+    }
+}
+
+.validate {
+    color: red;
+    font-style: italic;
+}
+
+.box_confirm {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    flex-direction: column;
+    padding-top: 20px;
+    border-radius: 5px;
+    border: 0.5px solid #c4c4c4;
+    position: absolute;
+
+    transform: translateY(-30px);
+    opacity: 0;
+    top: 30%;
+    left: 0;
+
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1500;
+    
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+
+    > div {
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        > button {
+            width: 80px;
+            padding: 2px 0;
+            border-radius: 5px;
+            color: #fff;
+            outline: none;
+            transition: all 0.3s ease-in-out;
+        }
+
+        button:first-child {
+            background-color: #e11b1e;
+            border-color: #e11b1e;
+        }
+
+        button:last-child {
+            background-color: #277cea;
+            border-color: #277cea;
+        }
+        button:last-child:hover {
+            color: #277cea;
+            background-color: #fff;
+        }
+        button:first-child:hover {
+            color: #e11b1e;
+            background-color: #fff;
+        }
+    }
+}
+
+.adjust_height {
+	min-height: 56vh;
+	margin-top: 65px;
+}
+// box confirm

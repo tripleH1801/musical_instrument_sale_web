@@ -1,0 +1,102 @@
+.wrapper {
+    margin: 70px auto;
+    min-height: 48vh;
+
+
+    .side_right {
+     
+        padding: 20px 15px;
+        background-color: #fff;
+        border-radius: 5px;
+
+        p {
+            margin: 0;
+        }
+        .products_table {
+            table {
+
+                .product {
+                    
+                    display: flex;
+                }
+                .product_name {
+                    width: 100%;
+                    padding: 0 10px;
+                    display: flex;
+                    flex-direction: column;
+
+                    > div {
+                        margin-top: 10px;
+
+                        > button {
+                            font-size: 14px;
+                            padding: 2px 10px;
+                        }
+                    }
+                }
+
+                .product_img > img {
+                    height: 60px;
+                    width: 60px;
+                    object-fit: contain;
+                    background-position: center center;
+                }
+            }
+        }
+
+        .address {
+            margin-bottom: 30px;
+        }
+
+        .totalPrice {
+            margin-left: 742px;
+
+            span {
+                color: red;
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.side_link {
+    color: black;
+    font-weight: 400;
+}
+.side_link:hover {
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: rgb(221, 221, 221);
+}
+.active {
+    background-color: rgb(221, 221, 221);
+}
+
+.price::after {
+    content: " đ";
+}
+
+.checked {
+    color: orange;
+}
+
+.top-modal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.start-ratting {
+    font-size: 1.6rem;
+}
+
+.modal-body {
+    form {
+        button {
+            width: 100%;
+        }
+    }
+}

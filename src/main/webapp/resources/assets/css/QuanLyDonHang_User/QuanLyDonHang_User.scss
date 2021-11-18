@@ -1,0 +1,36 @@
+.wrapper {
+    margin: 70px auto;
+    min-height: 48vh;
+
+    .side_right {
+        padding: 20px 15px;
+        background-color: #fff;
+        border-radius: 5px;
+
+        > table {
+            font-size: 14px;
+
+            a:hover {
+                text-decoration: none;
+            }
+
+            .adjustPrice::after {
+                content: " đ";
+            }
+        }
+    }
+}
+
+.side_link {
+    color: black;
+    font-weight: 400;
+}
+.side_link:hover {
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: rgb(221, 221, 221);
+}
+.active {
+    background-color: rgb(221, 221, 221);
+}

@@ -1,0 +1,291 @@
+/* menu */
+.highlight {
+	outline: 0.5px solid rgba(0, 0, 0, 0.08);
+	outline-style: groove;
+}
+
+.body {
+	background-color: #f5f8fd;
+	padding-top: 90px;
+}
+
+.slider_caterogies {
+	background: white;
+}
+
+.category {
+	display: block;
+	border-left: 3px solid #ad2f2f;
+	width: 100%;
+}
+
+.category__line a{
+	overflow: hidden;;
+}
+
+.category__adjust {
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+	justify-content: flex-start;
+}
+
+.category:hover .item {
+	background-color: #ad2f2f;
+	cursor: pointer;
+}
+
+.category__name {
+	font-weight: 600;
+}
+
+.category:hover .category__name {
+	color: white;
+	transition: all 0.15s ease-in-out 0.075s;
+}
+
+.category:hover .category__icon {
+	color: white;
+	transition: all 0.15s ease-in-out 0.075s;
+}
+
+.sub-category {
+	position: absolute;
+	min-width: 200px;
+	min-width: 952px;
+	top: 0;
+	left: 100%;
+	display: none;
+	z-index: 2;
+	bottom: 0;
+	background-color: white;
+	box-shadow: 8px 8px 8px #d8d6d6;
+}
+
+.category:hover .sub-category {
+	display: block;
+}
+
+.categories {
+	position: relative;
+}
+
+.item {
+	background-color: #e6e6e6;
+	padding: 8px 0;
+	transition: all 0.12s ease-in-out 0.06s;
+}
+
+.item>a {
+	text-decoration: none;
+	color: #000;
+}
+
+.item>i {
+	padding-left: 10px;
+	color: grey;
+}
+
+.slider_caterogies {
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.category-detail {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.category__line {
+	min-width: 200px;
+	padding: 0px 5px;
+	margin: 5px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.category__line>a>img {
+	object-fit: contain;
+	background-position: center;
+	height: 60px;
+	width: 200px;
+	transition: all 0.3s ease-in-out;
+}
+
+.category__line>p {
+	margin: 0;
+	font-size: 0.9rem;
+	transition: all 0.15s ease-in 0.075s;
+	font-weight: 400;
+	color: #797979;
+}
+
+.category__line>b {
+	margin: 0;
+}
+
+.category__line>hr {
+	margin: 5px 0;
+}
+
+.category__icon {
+	color: white;
+}
+
+.category__line>a>img:hover {
+	transform: scale(1.05);
+}
+
+.category__line>p:hover {
+	cursor: pointer;
+	color: #ad2f2f;
+}
+
+/* slider css */
+.sider>.row> a > img {
+	height: 125px;
+	width: 100%;
+}
+
+.sider {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+}
+
+.carousel-caption {
+	z-index: 1;
+}
+
+/* SẢN PHẨM BÁN CHẠY */
+.best_sell_product p {
+	margin: 0 0;
+}
+
+.best_sell_product {
+	background-color: white;
+}
+
+.checked {
+	color: orange;
+}
+
+.list__product--sell {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.product {
+	margin: 0 0;
+	padding: 0 5px;
+	width: 228px;
+	transition: all 0.15s ease-in 0.075s;
+	margin-bottom: 10px;
+}
+
+.product>.product__img>img {
+	height: 180px;
+	width: inherit;
+	background-position: center center;
+	transition: all 0.15s ease-in 0.075s;
+}
+
+.product__img {
+	height: 180px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.additional p {
+	background-color: rgba(238, 238, 238, 0.25);
+	font-size: 13px;
+	color: #444;
+}
+
+.additional {
+	margin-bottom: 8px;
+}
+
+.money {
+	font-weight: bold;
+	color: #d70018;
+}
+
+.product__name {
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+
+.product:hover {
+	cursor: pointer;
+	box-shadow: 0 6px 9px 0 rgb(0 0 0/ 16%);
+}
+
+.product:hover .product__img>img {
+	transform: scale(1.02);
+}
+
+.product__title {
+	padding-top: 10px;
+	color: #ad2f2f;
+	font-weight: bold;
+	background-color: rgba(238, 238, 238, 0.25);
+	width: 103.5%;
+	margin-left: -20px;
+	padding-left: 20px;
+}
+
+/* brand css */
+.brand--img {
+	height: 80px;
+	background-color: white;
+	border-radius: 10px;
+	width: 275px;
+	background-position: center center;
+	object-fit: contain;
+}
+
+.list__brand {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+footer .footer {
+	background-color: #960100;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding: 10px 5px;
+	color: #fff;
+}
+
+.logo>img {
+	object-fit: contain;
+	background-position: center center;
+	max-height: 200px;
+}
+
+.infomation p {
+	margin: 0 0;
+	transition: all 0.15s ease-in-out 0.075s;
+	font-size: 0.9rem;
+}
+
+.infomation hr {
+	background-color: #ffc107;
+}
+
+.infomation p:hover {
+	color: #ffc107;
+	cursor: pointer;
+}
+
+.slider {
+	margin-left: 0 !important;
+	margin-right: 5px;
+}

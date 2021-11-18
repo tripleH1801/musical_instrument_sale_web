@@ -1,0 +1,44 @@
+@charset "UTF-8";
+.adjust_button{
+	display: flex;
+	justify-content: center;
+	
+}
+.adjust--input{
+	width: 60px;
+}
+
+.adjust_button > input{
+	width : 80px;
+}
+
+.btn_interact{
+	color: #fff;
+	font-weight: 700;
+}
+
+.textPage{
+	text-align: center;
+	
+}
+
+.color{
+	background-color: #ed9421!important;
+}
+.management {
+	min-height: 584px;
+}
+
+table{
+	margin-bottom: 0 ;
+}
+
+.adjust_button{
+	
+	margin-top: 10px;
+}
+
+.wrapper_sanpham{
+	background: #fff;
+}
+

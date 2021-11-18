@@ -1,0 +1,239 @@
+.wrapper {
+  background-color: #fff;
+  padding: 0 20px !important;
+  margin-top: 75px !important;
+}
+
+.wrapper__listProduct__rightSide .top--bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 40px;
+}
+
+.wrapper__listProduct__rightSide .top--bar--left {
+  -webkit-box-flex: 9;
+      -ms-flex-positive: 9;
+          flex-grow: 9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper__listProduct__rightSide .top--bar--left .partion--price {
+  margin-left: 20px;
+}
+
+.wrapper__listProduct__rightSide .top--bar--left .partion--price a {
+  padding: 0 5px;
+}
+
+.wrapper__listProduct__leftSide {
+  padding: 0 10px;
+}
+
+.wrapper__listProduct__leftSide .boxSearch {
+  outline: 1px solid #e6e6e6;
+}
+
+.wrapper__listProduct__leftSide .boxSearch .item__title {
+  background-color: #e6e6e6;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.wrapper__listProduct__leftSide .boxSearch .itemSearch {
+  border-top: 1px solid #e6e6e6;
+  width: 100%;
+  font-size: 13px;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+}
+
+.product__list p{
+	margin: 0 0;
+}
+.product__img{
+	height: auto !important;
+}
+.wrapper__listProduct__leftSide .boxSearch .itemSearch span {
+  position: relative;
+  top: -1.5px;
+}
+
+.wrapper__listProduct__leftSide .boxSearch .itemSearch__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+p {
+  margin: 0 0;
+}
+
+.wrapper__title h2 {
+  color: #393d3f;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.product__list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.product__list .product {
+  width: 188px;
+  padding: 10px 4px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.product__list .product .product__img > img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100px;
+  max-width: 188px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.product__list .product .product__name > b {
+  font-size: 0.9rem;
+}
+
+.product__list .product .additional {
+  font-size: 0.8rem;
+}
+
+.product__list .product .money {
+  font-size: 0.9rem;
+  color: #d70018;
+  font-weight: bold;
+}
+
+.checked {
+  color: orange;
+}
+
+.product:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.product:hover .product__img > img {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.page {
+  margin: 20px auto;
+}
+
+.nav__list {
+  width: 100%;
+  border-bottom: 0.5px solid #e7e6e6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.nav__list a {
+  color: #444;
+  font-weight: bold;
+  position: relative;
+  z-index: 3;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav__list a:hover {
+  text-decoration: none;
+  color: #d70018;
+}
+
+.nav__list--index {
+  text-decoration: none;
+  padding: 10px 20px;
+  height: inherit;
+  z-index: 3;
+}
+
+.nav__list .bar {
+  position: absolute;
+  width: 83px;
+  background-color: #d70018;
+  height: 5px;
+  bottom: 0;
+  display: none;
+}
+
+.nav__list .bar--popular {
+  left: 10px;
+}
+
+.nav__list .bar--selling {
+  left: 120px;
+}
+
+.nav__list .bar--new {
+  left: 226px;
+}
+
+.nav__list .active {
+  display: block;
+}
+
+.ratting-search {
+  margin-bottom: 20px;
+  margin-top: 120px;
+}
+
+.ratting-search .item__title {
+  font-weight: 700;
+}
+
+.ratting-search .list_start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ratting-search .list_start a {
+  color: #444;
+  text-decoration: none;
+}
+
+.ratting-search .list_start span {
+  opacity: 0.8;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-size: 14px;
+}
+
+.ratting-search .list_start a:hover > span {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=ProductPage.css.map */

@@ -1,0 +1,11 @@
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=f7ca8db22df150f39c6c67e9c1f02c5ad021992c
+eclipse.preferences.version=1
+encoding//src/main/resources/messages.properties=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/sanpham/SanPham.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/sanpham/SanPhamForm.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/thuonghieu/ThuongHieu.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/user/GioHang.jsp=UTF-8
+encoding//src/main/webapp/resources/assets/css/index_page/index.css=UTF-8
+encoding/<project>=UTF-8

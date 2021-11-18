@@ -1,0 +1,93 @@
+table {
+    .test {
+        display: flex;
+        justify-content: space-bet;
+
+        input {
+            flex: 1;
+            margin-top: -5px;
+        }
+        span {
+            flex: 1;
+        }
+    }
+}
+
+.management {
+    font-size: 14px !important;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.timkiem {
+    padding-top: 10px;
+    label {
+        font-size: 1rem;
+    }
+}
+
+.custom-select {
+    font-size: 14px;
+}
+
+.wrapper {
+    margin: 10px auto;
+
+    .side_right {
+        width: 100%;
+        padding: 20px 15px;
+        background-color: #fff;
+        border-radius: 5px;
+
+        p {
+            margin: 0;
+        }
+        .products_table {
+            table {
+                .product {
+                    display: flex;
+                    align-items: flex-start;
+                }
+                .product_name {
+                    padding: 0 10px;
+                }
+
+                .product_img > img {
+                    height: 60px;
+                    width: 60px;
+                    object-fit: contain;
+                    background-position: center center;
+                }
+            }
+        }
+
+        .address {
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .status_total--price {
+            display: flex;
+            padding-right: 20%;
+            justify-content: flex-start;
+
+            select {
+                width: 40%;
+                margin-right: 20px;
+            }
+        }
+
+        .totalPrice {
+            span {
+                color: red;
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.price::after {
+    content: " đ";
+}

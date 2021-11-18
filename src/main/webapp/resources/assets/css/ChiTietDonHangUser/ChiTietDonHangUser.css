@@ -1,0 +1,111 @@
+@charset "UTF-8";
+.wrapper {
+  margin: 70px auto;
+  min-height: 48vh;
+}
+
+.wrapper .side_right {
+  padding: 20px 15px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.wrapper .side_right p {
+  margin: 0;
+}
+
+.wrapper .side_right .products_table table .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .side_right .products_table table .product_name {
+  width: 100%;
+  padding: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper .side_right .products_table table .product_name > div {
+  margin-top: 10px;
+}
+
+.wrapper .side_right .products_table table .product_name > div > button {
+  font-size: 14px;
+  padding: 2px 10px;
+}
+
+.wrapper .side_right .products_table table .product_img > img {
+  height: 60px;
+  width: 60px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center center;
+}
+
+.wrapper .side_right .address {
+  margin-bottom: 30px;
+}
+
+.wrapper .side_right .totalPrice {
+  margin-left: 742px;
+}
+
+.wrapper .side_right .totalPrice span {
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.side_link {
+  color: black;
+  font-weight: 400;
+}
+
+.side_link:hover {
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: #dddddd;
+}
+
+.active {
+  background-color: #dddddd;
+}
+
+.price::after {
+  content: " đ";
+}
+
+.checked {
+  color: orange;
+}
+
+.top-modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.start-ratting {
+  font-size: 1.6rem;
+}
+
+.modal-body form button {
+  width: 100%;
+}
+/*# sourceMappingURL=ChiTietDonHangUser.css.map */

@@ -1,0 +1,112 @@
+@charset "UTF-8";
+table .test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-bet;
+      -ms-flex-pack: space-bet;
+          justify-content: space-bet;
+}
+
+table .test input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-top: -5px;
+}
+
+table .test span {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.management {
+  font-size: 14px !important;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.timkiem {
+  padding-top: 10px;
+}
+
+.timkiem label {
+  font-size: 1rem;
+}
+
+.wrapper {
+  margin: 10px auto;
+}
+
+.custom-select {
+    font-size: 14px;
+}
+
+.wrapper .side_right {
+  width: 100%;
+  padding: 20px 15px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.wrapper .side_right p {
+  margin: 0;
+}
+
+.wrapper .side_right .products_table table .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.wrapper .side_right .products_table table .product_name {
+  padding: 0 10px;
+}
+
+.wrapper .side_right .products_table table .product_img > img {
+  height: 60px;
+  width: 60px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center center;
+}
+
+.wrapper .side_right .address {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper .side_right .status_total--price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 20%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.wrapper .side_right .status_total--price select {
+  width: 40%;
+  margin-right: 20px;
+}
+
+.wrapper .side_right .totalPrice span {
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.price::after {
+  content: " đ";
+}
+/*# sourceMappingURL=DanhSachHoaDon_Admin.css.map */

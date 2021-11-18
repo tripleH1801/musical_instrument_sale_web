@@ -1,0 +1,6 @@
+@charset "UTF-8";
+.error{
+	font-size: 14px;
+	color: red;
+	font-style: italic;
+}
